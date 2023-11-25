@@ -1,3 +1,3 @@
-# Copilot Administration & Security Training Demo Material
+# Copilot Administration & Security - Training Demo Material
 
-Complementing course material for the Copilot Administration &amp; Security training (L200)
+Complementary course material for the Copilot Administration & Security training (L200)
