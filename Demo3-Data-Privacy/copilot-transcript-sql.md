@@ -1,22 +1,27 @@
 # Transcript of a Copilot SQL Interaction
 
-Prompt example for the generation of secure code.
+A Prompt example for the generation of secure code.
+
+This transcript outlines the steps for requesting secure code from GitHub Copilot.
+Copilot deliberately avoids constraining its suggestions to specific secure code patterns, recognizing the diverse array of methods and patterns available for code security. This intentional flexibility empowers the requester to select their preferred security option based on their preferences.
+
+Copilot initially proposes a straightforward solution, providing a basic recommendation. However, through subsequent communication regarding specific security requirements, it unveils more sophisticated alternatives, showcasing its comprehensive understanding of secure coding practices related to the given topic.
 
 ---
 
-![copilot](docs/images/copilot-icon-s.png) **GitHub Copilot**
+![copilot](../docs/images/copilot-icon-s.png) **GitHub Copilot**
 
 Hi @jefeish, how can I help you?
 
 I'm powered by AI, so surprises and mistakes are possible. Make sure to verify any generated code or suggestions, and share feedback so that we can learn and improve.
 
 ---
-![jefeish](docs/images/jefeish-s.png) **jefeish**
+![jefeish](../docs/images/jefeish-s.png) **jefeish**
 
 can you give me the Java code for reading the Name and the Role from an SQL table ? Here is the Table sample: Name, Surname, Role, Active
 
 ---
-![copilot](docs/images/copilot-icon-s.png) **GitHub Copilot**
+![copilot](../docs/images/copilot-icon-s.png) **GitHub Copilot**
 
 Sure! Here's a Java code snippet that demonstrates how to read the "Name" and "Role" columns from an SQL table:
 
@@ -49,12 +54,12 @@ public class ReadDataFromTable {
 Please make sure to replace `database_name`, `your_username`, `your_password`, and `your_table_name` with the appropriate values for your database setup.
 
 ---
-![jefeish](docs/images/jefeish-s.png) **jefeish**
+![jefeish](../docs/images/jefeish-s.png) **jefeish**
 
 can you provide that code with a prepared statement ?
 
 ---
-![copilot](docs/images/copilot-icon-s.png) **GitHub Copilot**
+![copilot](../docs/images/copilot-icon-s.png) **GitHub Copilot**
 
 Certainly! Here's an updated version of the Java code that uses a prepared statement to read the `Name` and `Role` columns from an SQL table:
 
@@ -87,12 +92,12 @@ public class ReadDataFromTable {
 Again, please make sure to replace `database_name`, `your_username`, `your_password`, and `your_table_name` with the appropriate values for your database setup.
 
 ---
-![jefeish](docs/images/jefeish-s.png) **jefeish**
+![jefeish](../docs/images/jefeish-s.png) **jefeish**
 
 whats the difference, interms of security, between an SQL Statement and a PreparedStatement ?
 
 ---
-![copilot](docs/images/copilot-icon-s.png) **GitHub Copilot**
+![copilot](../docs/images/copilot-icon-s.png) **GitHub Copilot**
 
 In terms of security, there are a few key differences between a SQL statement and a prepared statement:
 
@@ -107,12 +112,12 @@ In terms of security, there are a few key differences between a SQL statement an
 Overall, using prepared statements is considered a best practice for database interactions in terms of security, as they help to prevent SQL injection attacks and ensure proper handling of user input.
 
 ---
-![jefeish](docs/images/jefeish-s.png) **jefeish**
+![jefeish](../docs/images/jefeish-s.png) **jefeish**
 
 What are some best practices for securing a Java application that interacts with a database?
 
 ---
-![copilot](docs/images/copilot-icon-s.png) **GitHub Copilot**
+![copilot](../docs/images/copilot-icon-s.png) **GitHub Copilot**
 
 Securing a Java application that interacts with a database involves implementing various best practices to protect sensitive data and prevent unauthorized access. Here are some key practices to consider:
 
