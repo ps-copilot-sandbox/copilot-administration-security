@@ -1,11 +1,31 @@
 # Visual Studio Code
 
-## Logs stored in Standard Location for Visual Studio Code Extensions
- - View -> Output -> GitHub Copilot - VS Code Command Palette -> Developer: Open Extension Logs Folder
-Network Connectivity Diagnostic Logs, due to network restrictions, firewalls, or your proxy setup - VS Code Command Palette -> GitHub Copilot: Copilot Diagnostics - Check Reachability, access the necessary services - Certification error, check `Custom Certificates:`. If disabled, cannot use CfB, as custom certificates are not supported
-Enable Debug Mode - Log files doesn't contain enough information to resolve the issue - Temporarily enable debug logging - Disable the Custom Debug Log Configuration
+Information about Logs stored in Standard Locations for Visual Studio Code Extensions
 
-- VS Code Command Palette -> Preferences: Open User Settings (JSON) -> Insert top-level property, then save "github.copilot.advanced": { "debug.overrideLogLevels": { "*": "DEBUG" } },
-Viewing Electron Logs - Rare cases, errors might not be propagated to the corresponding error handlers and are not logged in the regular locations - Encounter errors and nothing in logs - Logs from the process running VS Code & the extension
+---
 
-- VS Code Command Palette -> Developer: Toggle Developer Tools -> Developer Tools Window -> Console
+## VS Code Application Menu
+
+Review GitHub Copilot extension entries in the standard log file.
+
+- `View` &#8594; `Output`: `Filter: GitHub Copilot`
+
+---
+
+## VS Code Command Palette
+
+VS Code Command Palette commands to investigate issues.
+
+>NOTE: To open the **Command Palette** type `#3` or use the Menu-item, `View` &#8594; `Command Palette`
+
+![command-palette](../docs/images/vscode-command-palette.png)
+
+|Commands| Description|Notes|
+|---|---|---|
+|`Developer: Open Extension Logs Folder`| opens the external application log folder ||
+|`Copilot: Open Logs`| Same as above Application Menu approach ||
+|`GitHub Copilot: Copilot Diagnostics`| provides a diagnostic results file ||
+|`Preferences: Open User Settings (JSON)` &#8594; `Insert top-level property`|Enable the ***Debug log-level***, if the Log files don't contain enough information to resolve the issue|    <pre> "github.copilot.advanced": { <br>&nbsp;&nbsp;&nbsp;"debug.overrideLogLevels": {<br>&nbsp;&nbsp;&nbsp;&nbsp; "*": "DEBUG" <br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp; }</pre>|
+|`Developer: Toggle Developer Tools`|View Electron Logs (IDE) <br>In rare cases, errors might not be propagated to the corresponding error handlers and are not logged in the standard logging locations. If you encounter errors with no apparent log entries, consider examining logs emanating from both the process running VS Code and the associated extension.||
+
+---
