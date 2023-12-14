@@ -1,4 +1,4 @@
-# Copilot Administration & Security - Demo: Telemetry
+# GitHub Copilot REST API Demo
 
 ## Overview
 
