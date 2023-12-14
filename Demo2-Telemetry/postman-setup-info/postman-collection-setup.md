@@ -4,11 +4,11 @@
 
 ## Step 1: Create a Postman Workspace
 
-![postman1](docs/images/postman-create-workspace.png)
+![postman1](../../docs/images/postman-create-workspace.png)
 
 ## Step 2: Import a Postman Collection
 
-![postman2](docs/images/postman-import-collection.png)
+![postman2](../../docs/images/postman-import-collection.png)
 
 ## Step 3: Configure the Collection
 
