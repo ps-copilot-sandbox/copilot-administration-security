@@ -1,0 +1,220 @@
+{
+	"info": {
+		"_postman_id": "ac350d03-c04a-497e-8c3d-48cda67500d8",
+		"name": "GitHub Copilot API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23948556",
+		"_collection_link": "https://warped-resonance-718170.postman.co/workspace/New-Team-Workspace~8b7cd40b-aab9-4298-b6e3-921cbe93bba4/collection/23948556-ac350d03-c04a-497e-8c3d-48cda67500d8?action=share&source=collection_link&creator=23948556"
+	},
+	"item": [
+		{
+			"name": "Get Org Seat Information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/orgs/{{org}}/copilot/billing",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orgs",
+						"{{org}}",
+						"copilot",
+						"billing"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Org Seat Assignments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/orgs/{{org}}/copilot/billing/seats",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orgs",
+						"{{org}}",
+						"copilot",
+						"billing",
+						"seats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Teams to an Org",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"selected_teams\" : [\n        \"TEAM\"\n        ]\n}"
+				},
+				"url": {
+					"raw": "{{url}}/orgs/{{org}}/copilot/billing/selected_teams",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orgs",
+						"{{org}}",
+						"copilot",
+						"billing",
+						"selected_teams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Teams from an Org",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"selected_teams\" : [\n        \"TEAM\"\n        ]\n}"
+				},
+				"url": {
+					"raw": "{{url}}/orgs/{{org}}/copilot/billing/selected_teams",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orgs",
+						"{{org}}",
+						"copilot",
+						"billing",
+						"selected_teams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Users to an Org",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"selected_usernames\" : [\n        \"USERNAME\"\n        ]\n}"
+				},
+				"url": {
+					"raw": "{{url}}/orgs/{{org}}/copilot/billing/selected_users",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orgs",
+						"{{org}}",
+						"copilot",
+						"billing",
+						"selected_users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Users from an Org",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"selected_usernames\" : [\n        \"USERNAME\"\n        ]\n}"
+				},
+				"url": {
+					"raw": "{{url}}/orgs/{{org}}/copilot/billing/selected_users",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orgs",
+						"{{org}}",
+						"copilot",
+						"billing",
+						"selected_users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Seat for a User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/orgs/{{org}}/members/{{username}}/copilot",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orgs",
+						"{{org}}",
+						"members",
+						"{{username}}",
+						"copilot"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "TOKEN",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "org",
+			"value": "ORGNAME",
+			"type": "string"
+		},
+		{
+			"key": "url",
+			"value": "https://api.github.com",
+			"type": "string"
+		},
+		{
+			"key": "username",
+			"value": "USERNAME",
+			"type": "string"
+		}
+	]
+}
