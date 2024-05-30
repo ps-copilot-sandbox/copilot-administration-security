@@ -214,7 +214,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "{{collection-auditing-pat}}",
+				"value": "TOKEN",
 				"type": "string"
 			}
 		]
