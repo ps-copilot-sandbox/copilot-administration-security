@@ -101,7 +101,7 @@ whats the difference, interms of security, between an SQL Statement and a Prepar
 
 In terms of security, there are a few key differences between a SQL statement and a prepared statement:
 
- 1. SQL Injection Protection: Prepared statements provide built-in protection against SQL injection attacks. With a prepared statement, the SQL query is precompiled and the query parameters are treated as separate entities, preventing malicious input from altering the structure of the query. This helps to mitigate the risk of SQL injection vulnerabilities.
+1. SQL Injection Protection: Prepared statements provide built-in protection against SQL injection attacks. With a prepared statement, the SQL query is precompiled and the query parameters are treated as separate entities, preventing malicious input from altering the structure of the query. This helps to mitigate the risk of SQL injection vulnerabilities.
 
 2. Parameterized Queries: Prepared statements use parameterized queries, where the query parameters are represented by placeholders in the SQL statement. The actual parameter values are then bound to these placeholders at runtime. This separation of the query logic from the data values helps to ensure that user input is properly sanitized and prevents unauthorized access to the underlying database.
 
@@ -142,4 +142,3 @@ Securing a Java application that interacts with a database involves implementing
 1. Regularly Perform Security Audits and Penetration Testing: Conduct regular security audits and penetration testing to identify and address any vulnerabilities in your application and database configuration. This helps ensure that your security measures are effective and up to date.
 
 Remember that security is an ongoing process, and it's important to stay informed about the latest security best practices and vulnerabilities relevant to your specific database technology and application stack.
-

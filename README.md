@@ -1,5 +1,16 @@
-![copilot-logo-medium](https://github.com/copilot-training-pex/copilot-administration-security/assets/863198/33082dfb-d2f7-46ed-b86d-b72ba9d11437)
 
-# Copilot Administration & Security - Training Demo Material
+# ![copilot logo](/docs/images/copilot-icon-s.png) Copilot Administration & Security - Training Demo Material
 
 Complementary course material for the Copilot Administration & Security training (L200)
+
+## [Demos](Demo1/Policies-Settings/README.md)
+
+### Enterprise and Organization Policies, Settings, and Features
+
+### [Telemetry](Demo2-Telemetry/README.md)
+
+### [Integrations](Demo3-Integrations/README.md)
+
+### [Troubleshooting](Demo4-Troubleshooting/README.md)
+
+### [Data Privacy](Demo5-Data-Privacy/README.md)

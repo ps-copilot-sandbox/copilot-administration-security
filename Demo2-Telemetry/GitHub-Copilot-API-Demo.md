@@ -18,23 +18,29 @@ Update "TOKEN" under the Authentication tab with the token you created in the [C
 
 ![postman token update](../docs/images/Telemetry/postman-update-token.png)
 
-Update the variables "ORG" and "USERNAME" under the Variables tab with your organization name and your GitHub username you want to view.
+Update the variables "ORG" and "USERNAME" under the Variables tab with your organization name and your GitHub username you want to view. "ENTERPRISE" if you want to view usage for an enterprise account.
 
 ![postman variable update](../docs/images/Telemetry/postman-update-variables.png)
 
-### Step 2: Demo the Copilot REST API _Get Org Seat Information_
+### Step 2: Demo the Copilot REST API _Get Org Usage Information_
+
+Double click on "Get Org Usage Information" to open the request. Click "Send" to send the request.
+
+![Get Org Usage Information](../docs/images/Telemetry/get-org-usage-information.png)
+
+### Step 3: Demo the Copilot REST API _Get Org Seat Information_
 
 Double click on "Get Org Seat Information" to open the request. Click "Send" to send the request.
 
 ![Get Org Seat Information](../docs/images/Telemetry/get-org-seat-information.png)
 
-### Step 3: Demo the Copilot REST API _List Org Seat Assignments_
+### Step 4: Demo the Copilot REST API _List Org Seat Assignments_
 
 Double click on "List Org Seat Assignments" to open the request. Click "Send" to send the request.
 
 ![List Org Seat Assignments](../docs/images/Telemetry/list-org-seat-assignments.png)
 
-### Step 4: Demo the Copilot REST API _Get Seat for a User_
+### Step 5: Demo the Copilot REST API _Get Seat for a User_
 
 Double click on "Get Seat for a User" to open the request. Click "Send" to send the request.
 
