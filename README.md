@@ -3,9 +3,9 @@
 
 Complementary course material for the Copilot Administration & Security training (L200)
 
-## [Demos](Demo1/Policies-Settings/README.md)
+## Administration and Security Demos
 
-### Enterprise and Organization Policies, Settings, and Features
+### [DemosEnterprise and Organization Policies, Settings, and Features](Demo1/Policies-Settings/README.md)
 
 ### [Telemetry](Demo2-Telemetry/README.md)
 
