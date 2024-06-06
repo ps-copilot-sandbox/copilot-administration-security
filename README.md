@@ -5,7 +5,7 @@ Complementary course material for the Copilot Administration & Security training
 
 ## Administration and Security Demos
 
-### [DemosEnterprise and Organization Policies, Settings, and Features](Demo1/Policies-Settings/README.md)
+### [Enterprise and Organization Policies, Settings, and Features](Demo1/Policies-Settings/README.md)
 
 ### [Telemetry](Demo2-Telemetry/README.md)
 
