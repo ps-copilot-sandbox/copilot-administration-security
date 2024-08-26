@@ -7,7 +7,49 @@
 	},
 	"item": [
 		{
-			"name": "Get Org Usage",
+			"name": "Get Enterprise  Usage Members",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/enterprises/{{enterprise}}/copilot/usage",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"enterprises",
+						"{{enterprise}}",
+						"copilot",
+						"usage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Enterprise Usage Team",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/enterprises/{{enterprise}}/team/{{team_slug}}/copilot/usage",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"enterprises",
+						"{{enterprise}}",
+						"team",
+						"{{team_slug}}",
+						"copilot",
+						"usage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Org Usage Members",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -27,18 +69,20 @@
 			"response": []
 		},
 		{
-			"name": "Get Enterprise  Usage",
+			"name": "Get Org Usage Team",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/enterprises/{{enterprise}}/copilot/usage",
+					"raw": "{{url}}/orgs/{{org}}/team/{{team_slug}}/copilot/usage",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
-						"enterprises",
-						"{{enterprise}}",
+						"orgs",
+						"{{org}}",
+						"team",
+						"{{team_slug}}",
 						"copilot",
 						"usage"
 					]
@@ -258,6 +302,11 @@
 		{
 			"key": "enterprise",
 			"value": "ENTERPRISE",
+			"type": "string"
+		},
+		{
+			"key": "team_slug",
+			"value": "TEAM",
 			"type": "string"
 		}
 	]

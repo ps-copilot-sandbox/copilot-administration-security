@@ -26,3 +26,25 @@ With enough context, you start troubleshooting what could be the cause, going to
 Copilot Extensions bring this whole process together. From GitHub Copilot Chat, you can now easily invoke all of these tools to get context, perform actions, and generate files and pull requests—accelerating workflows across more tools.
 
 ![GitHub Copilot Extensions](../docs/images/integrations/copilot-extensions.png)
+
+## GitHub Copilot Models
+
+With GitHub Models, you build your understanding of AI model capabilities by experimenting with model settings and sending prompts through a chat interface. Additionally, you can directly interact with models through an SDK. Refer to a model's "Getting Started" tab for more information about how to use the SDK. Refer to a model’s "README" tab for more information on the model. Remember when interacting with a model you are experimenting with AI, so content mistakes are possible.
+
+GitHub Models is designed to allow for learning, experimentation and proof-of-concept activities. The feature is subject to various limits (including requests per minute, requests per day, tokens per request, and concurrent requests) and is not designed for production use cases. GitHub Models employs a number of [content filters](https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety). These filters cannot be turned off as part of the GitHub Models experience. If you decide to employ models through [Azure AI](https://ai.azure.com/github/model/docs) or a paid service, please configure your content filters to meet your requirements.
+
+### [Prototyping with AI models](https://docs.github.com/en/github-models/prototyping-with-ai-models)
+
+_Find and experiment with AI models for free._
+
+If you want to develop a generative AI application, you can use GitHub Models to find and experiment with AI models for free. Once you are ready to bring your application to production, you can switch to a token from a paid Azure account. See the [Azure AI](https://ai.azure.com/github/model/docs) documentation.
+
+See also "[Responsible use of GitHub Models](https://docs.github.com/en/github-models/responsible-use-of-github-models)."
+
+#### Finding AI models
+
+To find AI models, go to [GitHub Marketplace](https://github.com/marketplace/models), then click  Models in the sidebar.
+
+To view details about a model, click on the model's name.
+
+![GitHub Copilot Models](../docs/images/integrations/copilot-ai-models.png)
