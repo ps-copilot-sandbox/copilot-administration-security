@@ -1,0 +1,1 @@
+# Licensing for GitHub Copilot
