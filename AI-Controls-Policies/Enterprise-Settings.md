@@ -23,19 +23,22 @@ From here, walk through the **AI Controls** tab from top to bottom, starting wit
 
 This section governs how AI agents behave across the enterprise.
 
+- **Enterprise-Provided Configuration** — Review enterprise-level agent configuration provided by GitHub.
+- **Configuration Source** — Select the organization that provides enterprise-managed settings, plugins, and custom agents.
+- **Configuration Summary** — Summarize the effective configuration applied at the enterprise level.
 - **Agent Sessions** — View and manage active Copilot agent sessions running in the enterprise. Useful for auditing ongoing activity.
 - **Available Agents** — Review which Copilot agents are enabled. Admins can control which agents are accessible to users.
 - **Partner Agents** — Third-party agents integrated with GitHub Copilot. Show how to enable or restrict partner-built agents.
 - **Custom Agents** — Enterprise-built agents using the GitHub Copilot Extensions framework. Highlight how organizations can publish internal agents.
 - **Ruleset** — Define policies that govern agent behavior, such as restricting agents to specific repositories or workflows.
 
-> **Note:** Skip **Audit Logs** here — that will be covered in the Telemetry demo.
+> **Note:** No need to show **Audit Logs** here — that will be covered in the Telemetry demo.
 
 ---
 
 ## Copilot
 
-> **Note:** Skip **Access Management** here — that will be covered during the Onboarding Users demo.
+> **Note:** No need to show **Access Management** here — that will be covered during the Onboarding Users demo.
 
 - **Content Exclusion** — Prevent Copilot from accessing specific files, directories, or repositories across the entire enterprise. This is a key data governance control.
 - **Configure Allowed Models** — Restrict which AI models (e.g., GPT-4o, Claude, Gemini) are available to users. Useful for compliance and cost control.

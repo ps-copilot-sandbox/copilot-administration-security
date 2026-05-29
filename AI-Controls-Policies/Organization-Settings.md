@@ -15,7 +15,7 @@ https://github.com/organizations/[ORGANIZATION]/settings/copilot/seat_management
 
 From here, go to **Settings → Copilot** and walk through each section.
 
-> **Note:** Skip **Access** — that will be covered during the Onboarding Users demo.
+> **Note:** No need to show **Access** — that will be covered during the Onboarding Users demo.
 
 ---
 
@@ -25,9 +25,9 @@ From here, go to **Settings → Copilot** and walk through each section.
 
 Policies define what Copilot features and behaviors are permitted within the organization.
 
-- Review toggles for features like **Copilot Chat**, **code completion**, and **Copilot in pull requests**.
-- Policies set here can override or be constrained by enterprise-level settings.
-- Highlight that organization admins can enforce stricter controls than the enterprise baseline, but cannot loosen enterprise restrictions.
+- Review toggles for features like **Copilot Memory**, **Copilot metrics API**, and **Copilot cloud agent**.
+- Organization policies inherit enterprise guardrails.
+- Organization admins can configure the settings that enterprise admins delegate to the organization.
 
 ---
 
@@ -68,6 +68,14 @@ Configure settings for GitHub Copilot's cloud-based agent capabilities at the or
 - Review which repositories and workflows agents are permitted to act on.
 - Discuss how cloud agents differ from locally-run coding assistants (they can take actions, open PRs, run workflows, etc.).
 - Highlight the importance of scoping agent permissions carefully in a production environment.
+
+---
+
+### Secrets and variables
+
+Go to **Settings → Secrets and variables → Agents** to show how organizations can manage secrets that Copilot agents can access.
+
+- Review how to add secrets and variables at the organization level that can be used by agents in any repository within the org.
 
 ---
 
