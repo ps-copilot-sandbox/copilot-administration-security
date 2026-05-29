@@ -77,14 +77,19 @@ Navigate to the **Security** section and open **Code Quality**.
 - Define when code scanning runs: on push, on pull request, on schedule, or all of the above.
 - Discuss the tradeoff between shift-left security (early PR scanning) and performance impact.
 
+### Secrets and variables
+
+Go to the **Secrets and variables** tab and select **Agents**.
+
+- Show how to add repository-level secrets and variables that can be used by Copilot agents.
+
 ---
 
 ## Agents Tab
 
 Navigate to the **Agents** tab at the top of the repository settings.
 
-- Review agents that have been granted access to act on this repository.
-- Admins can approve, revoke, or restrict agent permissions at this level.
+- Review agents session activity in the repository.
 - Discuss how agent activity is traceable through audit logs and action history.
 
 ---
