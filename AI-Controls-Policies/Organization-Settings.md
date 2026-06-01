@@ -9,7 +9,7 @@
 
 Have the participant share their screen on their **Organization account** and navigate to:
 
-```
+```markdown
 https://github.com/organizations/[ORGANIZATION]/settings/copilot/seat_management
 ```
 

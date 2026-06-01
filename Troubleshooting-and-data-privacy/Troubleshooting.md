@@ -15,7 +15,7 @@ Have the participant share their screen and keep Visual Studio Code open while t
 
 Start by confirming service availability:
 
-- Open https://www.githubstatus.com/
+- Open `https://www.githubstatus.com/`
 - Verify the operational status of GitHub Copilot services
 - Discuss how incidents on the status page can explain widespread or transient failures
 

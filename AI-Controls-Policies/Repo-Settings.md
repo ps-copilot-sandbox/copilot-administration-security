@@ -9,7 +9,7 @@
 
 Have the participant share their screen and navigate to a repository, then go to:
 
-```
+```markdown
 https://github.com/[ORG]/[REPO]/settings/copilot/content_exclusion
 ```
 

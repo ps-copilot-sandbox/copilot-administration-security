@@ -9,7 +9,7 @@
 
 Have the participant share their screen and navigate to:
 
-```
+```markdown
 https://github.com/enterprises/[ENTERPRISE]/insights/copilot
 ```
 
@@ -70,7 +70,9 @@ Walk through relevant Copilot REST API calls step-by-step against an example org
 
 Reference:
 
-- https://docs.github.com/en/rest/copilot?apiVersion=2026-03-10
+```markdown
+https://docs.github.com/en/rest/copilot?apiVersion=2026-03-10
+```
 
 ---
 

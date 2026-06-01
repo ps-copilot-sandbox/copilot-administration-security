@@ -9,7 +9,7 @@
 
 Have the participant share their screen and navigate to:
 
-```
+```markdown
 https://github.com/enterprises/[ENTERPRISE]/billing
 ```
 
@@ -28,7 +28,7 @@ On the Copilot licensing page, review:
 
 Selecting **Manage** opens:
 
-```
+```markdown
 https://github.com/enterprises/[ENTERPRISE]/licensing/copilot
 ```
 

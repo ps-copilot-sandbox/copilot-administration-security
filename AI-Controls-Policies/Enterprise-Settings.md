@@ -9,7 +9,7 @@
 
 Have the participant share their screen on their **Enterprise account** and navigate to:
 
-```
+```markdown
 https://github.com/enterprises/[ENTERPRISE]/ai-controls/agents
 ```
 
