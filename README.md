@@ -5,12 +5,8 @@ Complementary course material for the Copilot Administration & Security training
 
 ## Administration and Security Demos
 
-### [Enterprise and Organization Policies, Settings, and Features](Demo1-Policies-Settings/README.md)
+### [AI Control Policies](/AI-Controls-Policies/)
 
-### [Telemetry](Demo2-Telemetry/README.md)
+### [Telemetry](/Telemetry/)
 
-### [Integrations](Demo3-Integrations/README.md)
-
-### [Troubleshooting](Demo4-Troubleshooting/README.md)
-
-### [Data Privacy](Demo5-Data-Privacy/README.md)
+### [Troubleshooting](/Troubleshooting-and-data-privacy/)
