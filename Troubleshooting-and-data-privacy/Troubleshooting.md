@@ -1,43 +1,94 @@
-Demonstration steps:​
+# Demo: GitHub Copilot Troubleshooting and Diagnostics
 
-- GitHub Status Page​
-- Open GitHub Status Page in a web browser: https://www.githubstatus.com/
-- Demonstrate how to verify the operational status of GitHub Copilot services.​
+> **Audience:** GitHub Copilot Administrators
+> **Goal:** Walk administrators through practical troubleshooting steps, diagnostic log collection, and escalation paths for Copilot issues.
 
-Visual Studio Code Application Logs​
+---
 
-- Open Visual Studio Code.​
-- From the menu, select View → Output.​
-- In the Output panel, select the dropdown and filter for "GitHub Copilot" to view the standard log entries.​
+## Setup
 
-Visual Studio Code Command Palette​
+Have the participant share their screen and keep Visual Studio Code open while testing each troubleshooting path.
 
-- Open the Command Palette by pressing Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (macOS), or via View → Command Palette.​
-- Demonstrate the following commands:​
-  - Developer: Open Extension Logs Folder: Opens the external log folder for deeper analysis.​
-  - Copilot: Open Logs: Directly opens Copilot logs (same as Application Menu approach).​
-  - GitHub Copilot: Copilot Diagnostics: Generates a diagnostic results file to aid troubleshooting.​
+---
 
-Enabling Debug Logging​
+## GitHub Status Check
 
-- In the Command Palette, type and select Preferences: Open User Settings (JSON).​
-- Demonstrate adding the following JSON snippet to enable debug-level logging:​
+Start by confirming service availability:
 
-```yaml
-"github.copilot.advanced": {​
-  "debug.overrideLogLevels": {​
-    "*": "DEBUG"​
-  }​
-}​
+- Open https://www.githubstatus.com/
+- Verify the operational status of GitHub Copilot services
+- Discuss how incidents on the status page can explain widespread or transient failures
+
+---
+
+## Visual Studio Code Application Logs
+
+Review standard Copilot extension logs:
+
+- Open Visual Studio Code
+- Select **View → Output**
+- In the Output panel, choose **GitHub Copilot** from the dropdown
+- Review log entries for authentication, network, or completion errors
+
+---
+
+## Command Palette Diagnostics
+
+Open the Command Palette:
+
+- Windows/Linux: **Ctrl+Shift+P**
+- macOS: **Cmd+Shift+P**
+- Or use **View → Command Palette**
+
+Demonstrate these commands:
+
+- **Developer: Open Extension Logs Folder**: Opens extension log files for deeper analysis
+- **Copilot: Open Logs**: Opens Copilot logs directly
+- **GitHub Copilot: Copilot Diagnostics**: Generates a diagnostics file for troubleshooting
+
+---
+
+## Enable Debug Logging
+
+Collect more detailed logs when standard logs are insufficient:
+
+- Open Command Palette and run **Preferences: Open User Settings (JSON)**
+- Add the following configuration:
+
+```json
+"github.copilot.advanced": {
+  "debug.overrideLogLevels": {
+    "*": "DEBUG"
+  }
+}
 ```
 
-- Save the settings file to activate detailed debug logging.​
-- Developer Tools for Electron Logs​
-- From the Command Palette, select Developer: Toggle Developer Tools.​
-- Demonstrate viewing logs from the Electron process, useful in rare cases where errors aren't captured in standard logs.​
+- Save settings to activate debug logging
 
-Copilot Community​
+---
 
-- Open Copilot Community Discussions to demonstrate how to seek additional support and share relevant log files or troubleshooting details.​
-- Reference Documentation:​
-  - Copilot Community Discussions​
+## Developer Tools (Electron Logs)
+
+Use Electron logs for rare cases not visible in extension logs:
+
+- Open Command Palette
+- Run **Developer: Toggle Developer Tools**
+- Review console output for renderer or process-level errors
+
+---
+
+## Community Support and Escalation
+
+If issues persist after diagnostics:
+
+- Open Copilot Community Discussions
+- Share relevant logs and diagnostics details when requesting help
+- Reference: Copilot Community Discussions
+
+---
+
+## Key Takeaways
+
+- Always begin with service health validation before deep local troubleshooting.
+- Copilot output logs, diagnostics, and debug logging provide layered insight for root-cause analysis.
+- Developer Tools and community escalation are useful when issues are not resolved through standard logs.

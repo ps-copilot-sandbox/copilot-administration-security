@@ -1,4 +1,4 @@
-# Demo: Repository-Level GitHub Copilot Settings
+# Repository-Level GitHub Copilot Settings
 
 > **Audience:** GitHub Copilot Administrators
 > **Goal:** Walk administrators through Copilot and security settings at the individual repository level.

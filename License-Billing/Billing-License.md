@@ -1,44 +1,78 @@
-# Billing and License Management
+# Enterprise Billing and License Management
 
-Now walkthrough the licenses settings.​
+> **Audience:** GitHub Copilot Administrators
+> **Goal:** Walk administrators through Copilot licensing, usage reporting, and budget controls at the enterprise billing level.
 
-https://github.com/enterprises/[ENTERPRISE]/billing​
+---
 
-Go to the Enterprise and select “Billing and licensing”​
+## Setup
 
-Under “Licensing” go to “Copilot”​. View:
+Have the participant share their screen and navigate to:
+
+```
+https://github.com/enterprises/[ENTERPRISE]/billing
+```
+
+From there, select **Billing and licensing** and then open **Licensing → Copilot**.
+
+---
+
+## Licensing and Access
+
+On the Copilot licensing page, review:
 
 - Consumed licenses
 - Estimated monthly payment
-- Downloadable report "Get activity report"
-- Select "manage" to view more settings. 
+- Downloadable report (**Get activity report**)
+- **Manage** option for additional Copilot licensing settings
 
-this will bring you to https://github.com/enterprises/[ENTERPRISE]/licensing/copilot
+Selecting **Manage** opens:
 
-Here you can view:
-- Copilot access
-- All members, Enterprise Teams, and Organizations with access to Copilot.​
-- Assign licenses
+```
+https://github.com/enterprises/[ENTERPRISE]/licensing/copilot
+```
+
+From there, walk through:
+
+- Copilot access controls
+- All members, enterprise teams, and organizations with Copilot access
+- License assignment management
+
+---
 
 ## Usage and Activity Reporting
 
-Go to usage then select 'AI usage'
+Go to **Usage** and select **AI usage**.
 
-Here you can view:
+Review:
+
 - Included credits consumption
 - Additional credits consumption
 - Usage grouped by models
 - Usage breakdown
-- Downloadable report "Get usage report"
+- Downloadable report (**Get usage report**)
+
+---
 
 ## Budgets and Cost Centers
 
-Select Cost centers
+Open **Cost centers** and review:
 
-Here you can view:
 - Active cost centers
 - Deleted cost centers
 
-Select Budgets and alerts
+Then open **Budgets and alerts**.
 
-Here you can create a new budget, alerts foe when a budget is close to being reached, and view existing budgets and alerts.​
+Show how to:
+
+- Create a new budget
+- Configure alerts when a budget is nearing its limit
+- Review existing budgets and alerts
+
+---
+
+## Key Takeaways
+
+- Enterprise billing settings provide centralized visibility into Copilot licensing and AI usage.
+- Usage reports and activity reports support governance, auditing, and cost tracking.
+- Cost centers, budgets, and alerts help teams proactively manage AI spend.
